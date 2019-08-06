@@ -2,7 +2,7 @@
   "name": "vuelearning",
   "version": "1.0.0",
   "description": "vue learning",
-  "author": "jeneser",
+  "author": "Dillon",
   "private": false,
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -15,11 +15,11 @@
     "normalize.css": "^5.0.0",
     "superagent": "^3.5.2",
     "superagent-jsonp": "^0.1.1",
-    "vue": "^2.1.10",
-    "vue-infinite-loading": "^2.0.4",
-    "vue-router": "^2.2.0",
+    "vue": "^2.6.10",
+    "vue-infinite-loading": "^2.4.4",
+    "vue-router": "^2.8.1",
     "vue-scroll-behavior": "^0.1.6",
-    "vuex": "^2.2.1"
+    "vuex": "^2.5.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
@@ -38,7 +38,7 @@
     "eslint-config-standard": "^6.2.1",
     "eslint-friendly-formatter": "^2.0.7",
     "eslint-loader": "^1.6.1",
-    "eslint-plugin-html": "^2.0.0",
+    "eslint-plugin-html": "^3.2.2",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1",
     "eventsource-polyfill": "^0.9.6",
@@ -61,10 +61,10 @@
     "vue-loader": "^11.0.0",
     "vue-style-loader": "^2.0.0",
     "vue-template-compiler": "^2.1.10",
-    "webpack": "^2.2.1",
-    "webpack-bundle-analyzer": "^3.3.2",
-    "webpack-dev-middleware": "^1.10.0",
-    "webpack-hot-middleware": "^2.16.1",
+    "webpack": "^2.7.0",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-dev-middleware": "^1.12.2",
+    "webpack-hot-middleware": "^2.25.0",
     "webpack-merge": "^2.6.1"
   },
   "engines": {

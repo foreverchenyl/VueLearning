@@ -4,8 +4,9 @@ import Router from 'vue-router'
 import PagesView from '../views/PagesView'
 import HomeView from '../views/HomeView'
 import MovieView from '../views/MovieView'
-import SearchView from '../views/SearchView'
 import DetailView from '../views/DetailView'
+import SearchView from '../views/SearchView'
+import AboutView from '../views/AboutView'
 
 Vue.use(Router)
 
@@ -37,6 +38,11 @@ export default new Router({
           path: 'detail/:id',
           name: 'DetailView',
           component: DetailView
+        },
+        {
+          path: 'about',
+          name: 'AboutView',
+          component: AboutView
         }
       ]
     },

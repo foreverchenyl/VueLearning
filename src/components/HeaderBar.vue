@@ -20,7 +20,7 @@
         </router-link>
       </li>
       <li>
-        <router-link style="color: #2AB8CC" :to="{ name: 'MovieView'}">
+        <router-link style="color: #2AB8CC" :to="{ name: 'AboutView'}">
           关于我
         </router-link>
       </li>
